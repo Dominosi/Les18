@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Eke</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    [class*="col-"] {
+      width: 100%;
+    }
+    @media only screen and (min-width: 768px) {
+      [class*="col-"] {
+        float: left;
+        padding: 15px;
+      }
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+    }
+    header{
+      width: 100%;
+      min-height: 208px;
+      background-color: #aaddff;
+      background-image: url(gemeentehuis.jpg);
+      background-size: 275px 183px;
+      background-repeat: no-repeat;
+      background-position: 10px 15px;
+      font-family: 'Merriweather', serif;
+      padding-left: 20px;
+    }
+    body{
+      font-family: Verdana;
+    }
+    #feiten{
+      background-color: #aaeeff;
+      padding: 8px 30px 8px 0px;
+      margin: 5px 0px;
+    }
+    #artikels{
+      min-height: 560px;
+      background-color: #ccffff;
+      margin: 5px 0px 5px 5px;
+    }
+    h3{
+      font-family: 'Merriweather', serif;
+    }
+    .art1{
+      padding: 12px 12px 12px 40px;
+    }
+    .art2{
+      padding: 40px 12px 40px 40px;
+    }
+    img{
+      max-height: 230px;
+      float: right;
+      padding: 3px;
+      margin: 8px 8px 8px 12px;
+      border: 3px solid black;
+    }
+    footer{
+      width: 100%;
+      height: 25px;
+      background-color: #aaddff;
+      font-size: 13px;
+      padding: 20px 20px 5px 20px;
+      clear: left;
+    }
+    @media only screen and (min-width: 1200px) {
+    header{
+    background-color: #999999;
+    }
+    footer{
+      background-color: #AAAAAA;
+    }
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Eke / Nazareth</h1>
+    </header>
+    <div class="row">
+    <div class="col-2" id="feiten">
+      <ul>
+        <li>Eke is een dorp in de Belgische provincie Oost-Vlaanderen en een deelgemeente van Nazareth.</li>
+        <li>11.701 inwoners (2020) / 35,19 km² oppervlakte</li>
+        <li>Op 1 januari 1977 fusioneerde Eke met de gemeente Nazareth.</li>
+        <li>Het dorp ligt aan de Schelde. </li>
+        <li>Sinds 1995 gaat elke eerste zondag van september het internationale straatanimatie-festival Brouwsels op straat door.</li>
+      </ul>
+    </div>
+    <div class="col-9" id="artikels">
+      <div class="art1">
+        <img src="Afbeelding/brouwsels.jpg" alt="circus tent" title="brouwsels op straat">
+        <h3>Brouwsels op straat</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id pretium odio. Suspendisse potenti.
+        Vivamus malesuada dictum mi at sollicitudin. Nam sodales tempor quam ut lobortis. Aenean luctus sapien est,
+        sit amet lacinia nisi pellentesque vitae. Vivamus tempus volutpat dui nec laoreet. Ut posuere nulla a metus facilisis semper.
+        Duis est quam, auctor fringilla neque vitae, vulputate varius augue.
+        Pellentesque ac aliquet ligula. Vestibulum mollis eget magna eget accumsan. Praesent sagittis vehicula nibh eu tincidunt.
+        Phasellus iaculis dolor quam, non fringilla tortor faucibus at. In malesuada metus nisi, ac vulputate elit blandit et.
+        Vivamus finibus ultrices mauris maximus bibendum. </p>
+      </div>
+      <div class="art2">
+        <img src="Afbeelding/odouce.jpg" alt="O'Douce" title="O'Douce jet ski">
+        <h3>O'Douce</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In malesuada metus nisi, ac vulputate elit blandit et.
+        Vivamus finibus ultrices mauris maximus bibendum. Maecenas id lacus sed nunc dignissim finibus ac viverra ipsum.
+        Maecenas in convallis tellus. Duis dapibus mi vel ipsum egestas efficitur.
+        Sed eleifend pretium eleifend. Aenean eget molestie purus. Maecenas id lacus sed nunc dignissim finibus ac viverra ipsum.
+        Maecenas in convallis tellus. Duis dapibus mi vel ipsum egestas efficitur. Vivamus tempus volutpat dui nec laoreet.</p>
+      </div>
+    </div>
+    </div>
+    <footer>© Dominique Sirault</footer>
+  </body>
+</html>
